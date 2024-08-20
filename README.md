@@ -6,13 +6,8 @@ This project aims to predict customer churn using an Artificial Neural Network (
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
+- [Preprocessing](#preprocessing)
 - [Model Architecture](#model-architecture)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 Customer churn prediction is a key challenge for businesses. By identifying which customers are likely to churn, businesses can take proactive measures to retain those customers. This project uses an ANN to model customer churn behavior based on historical data.
@@ -31,9 +26,10 @@ The dataset used for this project is sourced from [Insert Source if applicable].
 - `EstimatedSalary`: Estimated annual salary
 - `Exited`: Target variable (1 if the customer churned, 0 if not)
 
-
-Preprocessing steps are performed initially by remove unwanted columns and by converting the categorical columns into Numerical columns
-The Geography column is converted using the OneHot Encoding and the Gender column is tranformed using the LabelEncoding technique
+## Preprocessing
+Preprocessing steps are performed initially by remove unwanted columns and by converting the categorical columns into Numerical columns.
+- The Geography column is converted using the OneHot Encoding
+- Gender column is tranformed using the LabelEncoding technique
 
 Inorder to check the dependencies, the correlation plot was plotted between the dependednt and independent feature. 
 ![image](https://github.com/user-attachments/assets/774793cd-463c-489a-b057-bdec35078fba)
