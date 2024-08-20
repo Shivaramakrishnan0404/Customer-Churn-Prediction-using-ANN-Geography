@@ -33,7 +33,7 @@ The dataset used for this project is sourced from [Insert Source if applicable].
 
 
 Preprocessing steps are performed initially by remove unwanted columns and by converting the categorical columns into Numerical columns
-The Geography column is converted using the OneHot Encoding and the Gender column is tranformed is==using the LabelEncoding technique
+The Geography column is converted using the OneHot Encoding and the Gender column is tranformed using the LabelEncoding technique
 
 Inorder to check the dependencies, the correlation plot was plotted between the dependednt and independent feature. 
 ![image](https://github.com/user-attachments/assets/774793cd-463c-489a-b057-bdec35078fba)
