@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customer Churn Prediction Using Artificial Neural Networks
 
 This project aims to predict customer churn using an Artificial Neural Network (ANN) model. Customer churn refers to when a customer discontinues using a product or service. Predicting churn can help businesses retain customers by targeting interventions at high-risk customers.
@@ -51,3 +52,6 @@ The Artificial Neural Network (ANN) consists of:
 | **Total**     | -      | -            | 2945    |
 
 
+=======
+# Customer-Churn-Prediction-using-ANN-Geography
+>>>>>>> 4ab999cd2a8192959a7648dfd8f5cceb3938ece7
